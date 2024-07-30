@@ -1,8 +1,16 @@
+// Varun Pendem
+// PRN : 23070123149
 #include<iostream>
 using namespace std;
-int main(
+int main(){
 
-    for(int i = 0; i<=100 ; i++){
-cout<<endl<<i;
-    return 0;
+    int i = 1;
+    if(i>0){
+        cout<<"00000000000";
+    }
+    else{
+        cout<<"11111111111";
+    }
+
+    return  0 ;
 }
